@@ -1,0 +1,38 @@
+.jumbotron 
+{
+    padding: 25px; 
+    margin-bottom: 15px; 
+    border-radius: 0px;
+}  
+
+.sidenav 
+{
+    height: 100%; 
+    width: 300px; 
+    position: fixed;
+    z-index: 1; 
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    margin-top: 15px;
+    margin-left: 8px;
+    background-color: none;
+}
+
+.container { width: auto; margin-left: 305px; }
+
+body { font-family: 'Special Elite'; background-color: #4c4a53; }
+
+label { margin-left: 15px; }
+
+.form-control { margin: 0px 10px; border-radius: 0px; }   
+
+.card { border-radius: 0px; } 
+
+#train-schedule { margin-top: 0px; margin-bottom: 15px; } 
+
+table { font-family: 'Special Elite'; margin-top: -20px; }
+    
+th { text-align: left; padding: 8px; }
+    
+tr:nth-child(even) { background-color: #dddddd; }
